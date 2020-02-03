@@ -16,6 +16,8 @@ const AppWrapper = styled.main`
 
 const theme = {
 	main: '#f54242',
+	secondary: '#FFF',
+	tertiary: '#000',
 	shadow: '#b31b10'
 };
 

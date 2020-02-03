@@ -10,6 +10,7 @@ const HeaderWrapper = styled.nav`
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	margin-bottom: 25px;
 `;
 
 const Logo = styled.img`
@@ -25,7 +26,7 @@ const Button = styled.button`
 	border-radius: 5px;
 	background: none;
 	background-color: white;
-	color: ${props => props.theme.main};
+	color: ${props => props.theme.tertiary};
 	border: none;
 	padding: 15px;
 	margin-left: 20px;
